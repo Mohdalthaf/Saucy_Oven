@@ -745,6 +745,18 @@ img {
 
 /*=============== POPULAR ===============*/
 
+.popular__container{
+  grid-template-columns: 100%;
+  row-gap: 3rem;
+  padding-bottom: 2rem;
+}
+
+.popular__data .section__title{
+  margin-bottom: 1rem;
+}
+
+.popular__description
+
 
 /* Swiper class */
 
