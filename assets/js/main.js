@@ -40,9 +40,19 @@ const shadowHeader = () =>{
 window.addEventListener('scroll', shadowHeader)
 
 /*=============== SWIPER POPULAR ===============*/
+const swiperPopular = new Swiper('.popular__swiper', {
+  grabCursor: true,
+  spaceBetween: 10,
+  centeredSlides: 'auto',
+  initialSlide: 2, // start on the 4th pizza (0-based index)
+  slidesPerView: 'auto',
+ 
+});
 
 
-/*=============== SHOW SCROLL UP ===============*/ 
+
+
+/*=============== SHOW SCROLL UP ===============*/
 
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
