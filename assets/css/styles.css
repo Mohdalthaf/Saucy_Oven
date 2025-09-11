@@ -176,7 +176,6 @@ img {
 .main {
   overflow: hidden;
 }
-
 /*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
@@ -212,6 +211,7 @@ img {
 .nav__logo img{
   width: 24px;
 }
+
 
 .nav__toggle,
 .nav__close{
