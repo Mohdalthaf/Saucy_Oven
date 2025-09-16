@@ -8,9 +8,7 @@
             <p class="about__description">
                 <?php echo $aboutData['description']; ?>
             </p>
-            <a href="<?php echo $aboutData['buttonLink']; ?>" class="button">
-                <?php echo $aboutData['buttonText']; ?>
-            </a>
+            <?php renderButton($aboutData['buttonText'], $aboutData['buttonLink']); ?>
             <img src="<?php echo $aboutData['sticker']; ?>" alt="image" class="about__sticker">
         </div>
         <img src="<?php echo $aboutData['image']; ?>" alt="image" class="about__img">

@@ -19,7 +19,7 @@
                   <h3 class="footer__title">Your Feedback Matters</h3>
                   <form action="" class="footer__form">
                      <input type="email" placeholder="Email" class="footer__input">
-                     <button type="submit" class="footer__button">Share</button>
+                     <?php renderButton('Share', '#', 'footer__button'); ?>
                   </form>
                </div>
 

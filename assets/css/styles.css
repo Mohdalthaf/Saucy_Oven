@@ -1030,6 +1030,11 @@ img {
   transform: translateY(-.5rem);
 }
 
+.products__view-more{
+  text-align: center;
+  margin-top: 3rem;
+}
+
 /* Products responsiveness */
 
 /* Desktop */

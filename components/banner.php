@@ -7,9 +7,7 @@
                 <?php echo $bannerData['description']; ?>
             </p>
 
-            <a href="<?php echo $bannerData['buttonLink']; ?>" class="button">
-                <?php echo $bannerData['buttonText']; ?>
-            </a>
+            <?php renderButton($bannerData['buttonText'], $bannerData['buttonLink']); ?>
 
             <img src="<?php echo $bannerData['sticker1']; ?>" alt="image" class="home__sticker-1">
             <img src="<?php echo $bannerData['sticker2']; ?>" alt="image" class="home__sticker-2">

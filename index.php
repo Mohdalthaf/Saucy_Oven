@@ -1,6 +1,9 @@
 <?php 
 // Include all data files
 include 'data/homeData.php';
+
+// Include components
+include 'components/button.php';
 ?>
 
 <?php include 'partials/header.php'; ?>

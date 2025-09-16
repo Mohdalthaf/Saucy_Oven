@@ -9,10 +9,12 @@
             <h3 class="products__name"><?php echo $product['name']; ?></h3>
             <span class="products__price"><?php echo $product['price']; ?></span>
 
-            <button class="products__button">
-                <i class="ri-shopping-bag-3-fill"></i>
-            </button>
+            <?php renderIconButton('<i class="ri-shopping-bag-3-fill"></i>'); ?>
         </article>
         <?php endforeach; ?>
+    </div>
+    
+    <div class="products__view-more">
+        <?php renderButton('View More', '#products', 'button'); ?>
     </div>
 </section>
