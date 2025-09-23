@@ -38,6 +38,8 @@
          <div class="footer__policy">
             <a href="#" class="footer__link">Terms & Agreements</a>
             <a href="#" class="footer__link">Privacy Policy</a>
+            <a href="#" class="footer__link">Terms & Agreements</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
          </div>
       </footer>
 
