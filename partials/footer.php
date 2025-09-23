@@ -3,7 +3,7 @@
       <!--==================== FOOTER ====================-->
       <footer class="footer">
          <div class="footer__container container">
-            <a href="" class="footer__logo">Saucy Oven</a>
+            <a href="" class="footer__logo">Saucy Ovens</a>
 
             <div class="footer__content">
                <div class="footer__section">
