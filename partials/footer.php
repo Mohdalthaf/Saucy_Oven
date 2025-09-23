@@ -3,7 +3,7 @@
       <!--==================== FOOTER ====================-->
       <footer class="footer">
          <div class="footer__container container">
-            <a href="" class="footer__logo">Saucy Ovens</a>
+            <a href="" class="footer__logo">Saucy Oven</a>
 
             <div class="footer__content">
                <div class="footer__section">
@@ -36,8 +36,6 @@
          </div>
 
          <div class="footer__policy">
-            <a href="#" class="footer__link">Terms & Agreements</a>
-            <a href="#" class="footer__link">Privacy Policy</a>
             <a href="#" class="footer__link">Terms & Agreements</a>
             <a href="#" class="footer__link">Privacy Policy</a>
          </div>
